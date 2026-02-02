@@ -105,7 +105,7 @@ if prompt := st.chat_input("궁금한 점을 물어보세요!"):
         
         try:
             response = client.models.generate_content(
-                model="gemini-1.5-flash-001", 
+                model="gemini-2.5-flash", 
                 contents=full_prompt
             )
             message_placeholder.markdown(response.text)
