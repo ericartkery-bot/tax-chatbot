@@ -20,7 +20,7 @@ client = genai.Client(api_key=GOOGLE_API_KEY)
 # 🎨 [디자인 마법] 배경화면 및 스타일 설정
 # ==========================================
 st.set_page_config(
-    page_title="부동산 세무사 AI Pro", 
+    page_title="에릭 공인중개사 부동산 세무사 AI Pro", 
     page_icon="🏛️",
     layout="wide" # 화면을 넓게 씁니다
 )
